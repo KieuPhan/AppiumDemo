@@ -53,7 +53,7 @@ public class launchApp {
 	 
 	@BeforeTest
 	public  void setup() throws Exception{
-		
+		//Here
 		appiumStop();
 	  	  appiumStart();
 	        capabilities = new DesiredCapabilities();
